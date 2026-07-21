@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FormForge — Parametric Part Studio</title>
+    <meta
+      name="description"
+      content="Manufacturer-specific parametric catalogs powered by build123d. Configure parts, preview in 3D, export STEP/STL."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="./">FormForge</a>
+      <nav>
+        <a href="./#product">Product</a>
+        <a href="./pricing.html">Pricing</a>
+        <a href="./demo.html" class="btn btn-small">Open demo</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">For manufacturing shops</p>
+          <h1>FormForge</h1>
+          <p class="lede">
+            Publish your shop&rsquo;s parametric offerings. Buyers and sales configure dimensions, see a live 3D
+            preview, and download production-ready STEP and STL — without another CAD seat.
+          </p>
+          <div class="actions">
+            <a class="btn" href="./demo.html">View live demo guide</a>
+            <a class="btn btn-ghost" href="./pricing.html">Pricing</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <p class="eyebrow light">Live catalog</p>
+          <h2>Your parts. Your rules.</h2>
+          <ul>
+            <li>build123d templates per offering</li>
+            <li>Three.js preview with instant rebuilds</li>
+            <li>Export gate before STEP/STL download</li>
+            <li>Share links for customer configuration</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="product" class="section">
+        <h2>Built for specialized shop catalogs</h2>
+        <p class="section-copy">
+          Each manufacturer gets their own branded studio. Admins define offerings as parametric templates; customers
+          only see the knobs that matter for your product line.
+        </p>
+        <div class="grid">
+          <article>
+            <h3>Parametric offerings</h3>
+            <p>L-brackets, plates, enclosures — each with its own schema and build123d source.</p>
+          </article>
+          <article>
+            <h3>3D preview</h3>
+            <p>Debounced rebuilds stream GLB previews into an orbitable Three.js viewer.</p>
+          </article>
+          <article>
+            <h3>Production export</h3>
+            <p>Validation gate unlocks STEP and STL when the solid is watertight and non-zero volume.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>FormForge by <a href="https://github.com/AppVantixAI">AppVantix</a></p>
+    </footer>
+  </body>
+</html>

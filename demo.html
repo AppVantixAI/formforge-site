@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Demo — FormForge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="./">FormForge</a>
+      <nav>
+        <a href="./#product">Product</a>
+        <a href="./pricing.html">Pricing</a>
+        <a href="./demo.html" class="btn btn-small">Open demo</a>
+      </nav>
+    </header>
+
+    <main class="section narrow">
+      <h1>Interactive demo</h1>
+      <p class="section-copy">
+        GitHub Pages hosts this marketing site only. The live parametric studio (build123d + Three.js) runs as a
+        private app and needs a Python CAD backend — that cannot run on Pages.
+      </p>
+
+      <div class="callout">
+        <h2>Acme Machining seed demo</h2>
+        <p>When the studio is running locally or on a host:</p>
+        <ul>
+          <li>Email: <code>admin@acme.demo</code></li>
+          <li>Password: <code>formforge-demo</code></li>
+          <li>Try offerings: L-Bracket, Mounting Plate, Enclosure Shell</li>
+        </ul>
+      </div>
+
+      <div class="callout">
+        <h2>Private source access</h2>
+        <p>
+          Code lives at
+          <a href="https://github.com/AppVantixAI/formforge">github.com/AppVantixAI/formforge</a>
+          (private). Invite <code>connor@volts3d.com</code> from
+          <a href="https://github.com/AppVantixAI/formforge/settings/access">repo collaborator settings</a>.
+        </p>
+        <pre><code>git clone https://github.com/AppVantixAI/formforge.git
+cd formforge
+./scripts/dev-api.sh
+./scripts/dev-web.sh
+# open http://localhost:3000</code></pre>
+      </div>
+    </main>
+
+    <footer>
+      <p>FormForge by <a href="https://github.com/AppVantixAI">AppVantix</a></p>
+    </footer>
+  </body>
+</html>
