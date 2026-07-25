@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[60154,["/formforge-site/_next/static/chunks/12wy5nnzpl_tm.js","/formforge-site/_next/static/chunks/031d4hdncmqdj.js","/formforge-site/_next/static/chunks/2t2lfa_tfr0r3.js"],"MarketingShell"]
+3:I[38961,["/formforge-site/_next/static/chunks/12wy5nnzpl_tm.js","/formforge-site/_next/static/chunks/031d4hdncmqdj.js","/formforge-site/_next/static/chunks/2t2lfa_tfr0r3.js"],"MarketingHome"]
+4:I[97367,["/formforge-site/_next/static/chunks/12wy5nnzpl_tm.js","/formforge-site/_next/static/chunks/031d4hdncmqdj.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","$L3",null,{}]}],[["$","script","script-0",{"src":"/formforge-site/_next/static/chunks/2t2lfa_tfr0r3.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"DjLZbC7dddx7kl2dew334"}
+6:null

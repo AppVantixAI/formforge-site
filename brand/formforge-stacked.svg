@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 96" role="img" aria-label="FormForge">
+  <title>FormForge stacked logo</title>
+  <g transform="translate(28,0)">
+    <rect width="64" height="64" rx="10" fill="#0c1010"/>
+    <path d="M14 14h28v8H22v8h16v8H22v12H14V14z" fill="#f6f4f0"/>
+    <rect x="42" y="14" width="8" height="36" rx="1" fill="#0f6b66"/>
+    <rect x="42" y="46" width="8" height="4" fill="#1a8a83"/>
+  </g>
+  <text x="60" y="88" text-anchor="middle" fill="#1a1f1e" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="-0.03em">FormForge</text>
+</svg>

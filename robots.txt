@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /
+Disallow: /admin
+Disallow: /billing
+Disallow: /configure/
+Disallow: /share/
+Disallow: /api/
+
+Sitemap: https://appvantixai.github.io/formforge-site/sitemap.xml

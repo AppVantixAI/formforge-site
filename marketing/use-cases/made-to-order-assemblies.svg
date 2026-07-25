@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="mtoTitle mtoDesc">
+  <title id="mtoTitle">Made-to-order assemblies</title>
+  <desc id="mtoDesc">Rule-bound multi-part assembly with constrained options</desc>
+  <defs>
+    <style>
+      .bg { fill: #fffcf8; }
+      .surface { fill: #f0ece6; }
+      .ink { fill: #1a1f1e; }
+      .muted { fill: #5f6563; }
+      .accent { fill: #0891b2; }
+      .frame { fill: none; stroke: rgba(26,31,30,0.12); stroke-width: 1.25; }
+      .line { stroke: rgba(26,31,30,0.2); stroke-width: 1.5; fill: none; }
+      .label { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: 0.12em; }
+    </style>
+  </defs>
+  <rect class="bg" width="640" height="400"/>
+  <g transform="translate(80,48)">
+    <rect class="surface" width="480" height="304" rx="4"/>
+    <rect class="frame" width="480" height="304" rx="4"/>
+    <text class="mono accent" x="24" y="36">ASSEMBLY</text>
+    <text class="label ink" x="24" y="58">Rule-bound kit</text>
+    <!-- Base plate -->
+    <rect x="120" y="220" width="240" height="28" rx="2" fill="#fff" stroke="#0891b2" stroke-width="1.5"/>
+    <!-- Uprights -->
+    <rect x="148" y="120" width="24" height="100" rx="2" fill="#fff" stroke="rgba(26,31,30,0.35)" stroke-width="1.25"/>
+    <rect x="308" y="120" width="24" height="100" rx="2" fill="#fff" stroke="rgba(26,31,30,0.35)" stroke-width="1.25"/>
+    <!-- Cross member -->
+    <rect x="148" y="148" width="184" height="18" rx="2" fill="#fff" stroke="#0891b2" stroke-width="1.5"/>
+    <!-- Option nodes -->
+    <circle cx="160" cy="100" r="10" fill="#0891b2"/>
+    <circle cx="320" cy="100" r="10" fill="#0891b2"/>
+    <circle cx="240" cy="236" r="8" fill="#fff" stroke="#0891b2" stroke-width="1.5"/>
+    <path class="line" d="M160 110 V120 M320 110 V120"/>
+    <!-- Dim callouts -->
+    <path class="line" d="M120 270 H360"/>
+    <text class="mono muted" x="210" y="288">L = param</text>
+  </g>
+</svg>

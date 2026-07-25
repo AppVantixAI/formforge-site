@@ -1,5 +1,7 @@
-# FormForge Site
+# VendorCAD marketing site
 
-Public GitHub Pages marketing site for FormForge.
+Static export of the VendorCAD marketing surface from the private [formforge](https://github.com/AppVantixAI/formforge) monorepo.
 
-Live URL (after Pages deploy): https://appvantixai.github.io/formforge-site/
+**Live:** https://appvantixai.github.io/formforge-site/
+
+Do not edit HTML here by hand — rebuild from `apps/marketing` via `./scripts/build-marketing-pages.sh` and publish.
